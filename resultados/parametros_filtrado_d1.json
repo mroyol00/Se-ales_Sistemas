@@ -1,0 +1,23 @@
+{
+  "bateria": "B0005",
+  "descarga": 1,
+  "senal": "tension_V",
+  "fase": "activa (|I| >= 0.5 A)",
+  "n_muestras_originales": 180,
+  "duracion_s": 3346.937,
+  "dt_min_s": 16.781,
+  "dt_mediana_s": 18.57900000000018,
+  "dt_max_s": 19.71900000000005,
+  "muestreo_uniforme": true,
+  "remuestreo": "interpolación lineal (np.interp) en rejilla uniforme con extremos incluidos (linspace)",
+  "n_muestras_remuestreadas": 181,
+  "dt_uniforme_s": 18.594094444444444,
+  "fs_Hz": 0.05378051633478611,
+  "nyquist_Hz": 0.026890258167393054,
+  "filtro": "Butterworth paso bajo (scipy.signal.butter, salida sos)",
+  "orden": 4,
+  "fc_Hz": 0.005378051633478612,
+  "fc_sobre_nyquist": 0.2,
+  "periodo_de_corte_s": 185.9409444444444,
+  "aplicacion": "sosfiltfilt (fase cero, ida y vuelta; padtype='odd' por defecto)"
+}
